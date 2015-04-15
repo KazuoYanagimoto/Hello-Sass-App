@@ -1,0 +1,28 @@
+// global styling
+body {
+	// @include container(85%);
+}
+.main {
+	padding: 50px;
+	text-align: center;
+	background: rgb(198, 83, 140);
+	// @include contrasted(rgb(198, 83, 140));
+	h1 {
+		padding: 30px;
+		font-size: 3em;
+	}
+	p {
+		padding: 15px;
+		font-size: 1.5em;
+		a {
+			color: lighten(deepskyblue, 15%);
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+				&:after {
+					content: '!';
+				}
+			}
+		}
+	}
+}
