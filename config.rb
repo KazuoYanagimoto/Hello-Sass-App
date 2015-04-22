@@ -14,7 +14,7 @@ images_dir = dev_dir + "/images"
 javascripts_dir = dev_dir + "/scripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
-output_style = :nested
+# output_style = :nested
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
@@ -27,4 +27,4 @@ output_style = :nested
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-sass_options = {:sourcemap => true}
+# sass_options = {:sourcemap => true}
